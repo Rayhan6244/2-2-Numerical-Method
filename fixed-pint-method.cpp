@@ -1,3 +1,4 @@
+//The equation is: 3x-cos(x)-1 = 0
 #include <iostream>
 #include<cmath>>
 using namespace std;
@@ -11,7 +12,7 @@ int main() {
     double tol = 0.0001;
     int step = 0, max_steps = 100;
 
-    x = 0.5;
+    x = 3.2;
 
     x_new = g(x);
 
